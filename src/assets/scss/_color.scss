@@ -1,0 +1,71 @@
+:root {
+    --c-white: #FFF;
+    --c-indigo: #6610f2;
+    --indigo-light: #9277FF;
+  
+    --c-status-paid: #33D69F;
+    --c-status-pending: #FF8F00;
+    --c-status-draft: #1E2139;
+
+    --1: #7C5DFA;
+    --2: #9277FF;
+    --3: #1E2139;
+    --4: #252945;
+    --5: #DFE3FA;
+    --6: #888EB0;
+    --7: #7E88C3;
+    --8: #0C0E16;
+    --9: #EC5757;
+    --10: #FF9797;
+    --11: #F8F8FB (Light BG);
+    --12: #141625;
+
+}
+
+[data-theme="light"] {
+    --primary: #0C0E16;
+    --secondary: #888EB0;
+    --tertiary: #858BB2;
+
+    --bg-content: #F2F2F2;
+    // F8F8FB
+    --bg-invoice-item: #FFF;
+    --bg-sidebar: #373B53;
+}
+
+
+[data-theme="dark"] {
+    --primary: #FFF;
+    --secondary: #DFE3FA;
+    --tertiary: #7E88C3;
+
+    --bg-content: #141625;
+    --bg-invoice-item: #1E2139;
+    --bg-sidebar: #1E2139;
+    
+
+}
+
+
+
+
+
+.text-light {
+    color: #858BB2;
+}
+
+.text-black {
+    color: #0C0E16;
+}
+
+.text-green {
+    color: #33D69F;
+}
+
+.text-orange {
+    color: #FF8F00;
+}
+
+.text-black-l {
+    color: #373B53;
+}
